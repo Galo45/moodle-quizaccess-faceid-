@@ -1,0 +1,134 @@
+# Moodle Plugin .gitignore
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.orig
+
+# Logs
+*.log
+error_log
+debug.log
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+desktop.ini
+
+# PHP specific
+*.php~
+*.phps
+
+# Moodle specific
+# Note: Don't ignore amd/build/ as it contains minified JS needed for production
+# But you might want to ignore it if you're building locally
+
+# User data (if testing locally)
+# pix/
+# Don't commit user uploaded files or data
+
+# Build artifacts
+*.min.js.map
+amd/build/.eslintrc
+amd/build/.babelrc
+
+# Testing
+phpunit.xml
+behat.yml
+.phpunit.result.cache
+
+# Composer (if using)
+/vendor/
+composer.lock
+
+# Node modules (if using npm for JS development)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Backup files
+*.bak
+*.gho
+*.ori
+*.orig
+*.tmp
+
+# Database
+*.sql
+*.sqlite
+*.db
+
+# Sensitive data
+config.php
+passwords.txt
+secrets.txt
+
+# Development/Testing data
+test_data/
+temp/
+cache/
