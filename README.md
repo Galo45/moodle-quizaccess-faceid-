@@ -32,7 +32,7 @@ Plugin de Moodle para control de acceso a cuestionarios mediante verificación b
 
 ### Servidor Backend
 - **Servidor Flask de Face Recognition** funcionando y accesible
-- Ver [faceid-flask-server](https://github.com/usuario/faceid-flask-server) para instalación del servidor
+- Ver [faceid-flask-server](https://github.com/Galo45/faceid-flask-server-) para instalación del servidor
 
 ### Cliente (Estudiante)
 - Navegador moderno con soporte para **getUserMedia API**:
@@ -52,11 +52,11 @@ Plugin de Moodle para control de acceso a cuestionarios mediante verificación b
 **Opción A: Clonar con Git**
 ```bash
 cd /ruta/a/moodle/mod/quiz/accessrule/
-git clone https://github.com/usuario/moodle-quizaccess_faceid.git faceid
+git clone https://github.com/Galo45/moodle-quizaccess-faceid-.git faceid
 ```
 
 **Opción B: Descargar ZIP**
-1. Descarga el [último release](https://github.com/usuario/moodle-quizaccess_faceid/releases)
+1. Descarga el [último release](https://github.com/Galo45/moodle-quizaccess-faceid-/releases)
 2. Extrae el contenido en `moodleroot/mod/quiz/accessrule/faceid/`
 
 ### 2️⃣ Instalar el Plugin
@@ -570,8 +570,8 @@ Para ver logs detallados del servidor:
 
 1. **Fork el repositorio**
    ```bash
-   git clone https://github.com/tu-usuario/moodle-quizaccess_faceid.git
-   cd moodle-quizaccess_faceid
+   git clone https://github.com/Galo45/moodle-quizaccess-faceid-.git
+   cd moodle-quizaccess-faceid-
    ```
 
 2. **Crea una rama para tu funcionalidad**
@@ -629,8 +629,8 @@ Ver [LICENSE](LICENSE) para más detalles.
 
 ## 👥 Autores
 
-- **Desarrollador Principal:** [Tu Nombre](https://github.com/tu-usuario)
-- **Contacto:** tu-email@ejemplo.com
+- **Desarrollador Principal:** [Galo Ruales](https://github.com/Galo45)
+- **Contacto:** rualesgalo709@gmail.com
 
 ---
 
@@ -651,7 +651,7 @@ Ver [LICENSE](LICENSE) para más detalles.
 - [Desarrollo de Plugins para Moodle](https://moodledev.io/)
 - [Quiz Access Rule API](https://moodledev.io/docs/apis/subsystems/quiz/accessrule)
 - [Manual de Implementación](IMPLEMENTATION.md)
-- [Servidor Flask - Face Recognition](https://github.com/usuario/faceid-flask-server)
+- [Servidor Flask - Face Recognition](https://github.com/Galo45/faceid-flask-server-)
 
 ---
 
@@ -660,8 +660,8 @@ Ver [LICENSE](LICENSE) para más detalles.
 Si tienes problemas o preguntas:
 
 1. Revisa la sección [Solución de Problemas](#-solución-de-problemas)
-2. Busca en [Issues existentes](https://github.com/usuario/moodle-quizaccess_faceid/issues)
-3. Abre un [nuevo Issue](https://github.com/usuario/moodle-quizaccess_faceid/issues/new) con:
+2. Busca en [Issues existentes](https://github.com/Galo45/moodle-quizaccess-faceid-/issues)
+3. Abre un [nuevo Issue](https://github.com/Galo45/moodle-quizaccess-faceid-/issues/new) con:
    - Versión de Moodle
    - Versión del plugin
    - Descripción del problema
