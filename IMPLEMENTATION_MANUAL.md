@@ -1,8 +1,8 @@
 # Manual de Implementación - Sistema Face ID para Moodle
 
 **Versión:** 1.0
-**Fecha:** Enero 2025
-**Autor:** Face ID Development Team
+**Fecha:** 22 de Noviembre de 2025
+**Autor:** Galo Ruales
 
 ---
 
@@ -1429,5 +1429,5 @@ WHERE f.enabled = 1;
 
 **Fin del Manual de Implementación**
 
-*Última actualización: Enero 2025*
+*Última actualización: 22 de Noviembre de 2025*
 *Versión del documento: 1.0*
