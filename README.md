@@ -649,7 +649,6 @@ Ver [LICENSE](LICENSE) para más detalles.
 
 - [Documentación de Moodle](https://docs.moodle.org/)
 - [Desarrollo de Plugins para Moodle](https://moodledev.io/)
-- [Quiz Access Rule API](https://moodledev.io/docs/apis/subsystems/quiz/accessrule)
 - [Manual de Implementación](IMPLEMENTATION_MANUAL.md)
 - [Servidor Flask - Face Recognition](https://github.com/Galo45/faceid-flask-server-)
 
